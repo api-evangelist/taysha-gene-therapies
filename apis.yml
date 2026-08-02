@@ -1,8 +1,23 @@
 aid: taysha-gene-therapies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taysha-gene-therapies.png
 name: Taysha Gene Therapies *
-description: 'Taysha Gene Therapies * is a company surfaced as a portfolio company of gv and added to
-  the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Taysha Gene Therapies is a clinical-stage biotechnology company (Dallas, TX with a laboratory
+  in Morrisville, NC) developing AAV-based gene therapies for rare monogenic diseases of the central nervous
+  system. Its lead program, TSHA-102, targets Rett syndrome and has completed dosing in the REVEAL pivotal
+  trial. The company operates as a therapeutics developer and publishes no public developer API, documentation
+  portal, or technical integration surface; it was surfaced as a GV portfolio company and added to the API
+  Evangelist network as an enrichment lead.'
 url: https://raw.githubusercontent.com/api-evangelist/taysha-gene-therapies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Gene Therapy
+- Rare Disease
+- Central Nervous System
+- Clinical Stage
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/taysha-gene-therapies-domain-security.yml
 - type: Website
-  url: http://tayshagtx.com
+  url: https://tayshagtx.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
